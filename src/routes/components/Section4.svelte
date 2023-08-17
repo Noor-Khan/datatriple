@@ -4,7 +4,7 @@
 			믿고 맡기는 <span class="text-primary"> 데이타트리플 </span>
 		</h2>
 		<div class="grid md:grid-cols-2 gap-8 pt-16 sm:pt-36">
-			<div class="person-img">
+			<div class="person-img sm:w-96">
 				<img src="/images/person-1.jpeg" alt="" />
 			</div>
 			<div class="text-left">
@@ -27,7 +27,7 @@
 
 <style>
 	.person-img {
-		@apply visible inline-block w-[367px] h-[367px] mx-auto;
+		@apply visible inline-block mx-auto;
 		image-rendering: -webkit-optimize-contrast;
 	}
 	.person-img img {

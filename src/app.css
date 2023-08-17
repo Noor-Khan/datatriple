@@ -16,7 +16,7 @@ body {
 	object-fit: cover;
 }
 .splide .splide__slide {
-	@apply flex items-center;
+	@apply flex md:items-center items-end;
 }
 .splide .splide__pagination__page {
 	border-radius: 50% !important;
@@ -34,4 +34,13 @@ body {
 	background-color: #fff !important;
 	opacity: 1;
 	transform: scale(1);
+}
+
+@media (max-width: 767px) {
+	.splide__list .splide__slide:nth-child(1) {
+		background-image: url('/images/slide-1-mob.png') !important;
+	}
+	.splide__list .splide__slide:nth-child(2) {
+		background-image: url('/images/slide-2-mob.png') !important;
+	}
 }
