@@ -1,6 +1,6 @@
 <div class="py-24 bg-bgGray">
 	<div class="max-w-7xl mx-auto text-center px-6">
-		<h2 class="text-4xl font-bold">
+		<h2 class="text-4xl font-bold text-black tracking-wider">
 			믿고 맡기는 <span class="text-primary"> 데이타트리플 </span>
 		</h2>
 		<div class="grid md:grid-cols-2 gap-8 pt-16 sm:pt-36">
