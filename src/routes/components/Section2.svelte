@@ -35,13 +35,13 @@
 </script>
 
 <div class="w-full py-32">
-	<div class="grid grid-cols-2 max-w-7xl px-6 mx-auto">
+	<div class="grid md:grid-cols-2 max-w-7xl px-6 mx-auto">
 		<div>
-			<h3 class="text-4xl font-semibold text-gray-300 mb-6">남다른 데이타트리플</h3>
+			<h3 class="text-4xl font-semibold text-appGray mb-6">남다른 데이타트리플</h3>
 			<h2 class="text-4xl font-semibold text-primary">데이타트리플만의 강점</h2>
 			<img src="/images/triangle.png" alt="" />
 		</div>
-		<div class="grid grid-cols-2 gap-8">
+		<div class="grid sm:grid-cols-2 gap-8">
 			{#each features as feature (feature.title)}
 				<div>
 					<span class="text-5xl text-gray-300">
