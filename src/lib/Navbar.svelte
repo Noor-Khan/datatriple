@@ -101,13 +101,25 @@
 			</a>
 			{#if !isMobile}
 				<ul class="flex items-center md:space-x-8 transition-colors">
-					<li>
+					<li
+						class="{$page.url.pathname === '/workers'
+							? 'border-b border-primary text-primary transition-colors'
+							: ''} pb-2"
+					>
 						<a href="/workers">전문가소개</a>
 					</li>
-					<li>
+					<li
+						class="{$page.url.pathname === '/process'
+							? 'border-b border-primary text-primary transition-colors'
+							: ''} pb-2"
+					>
 						<a href="/process">진행방식</a>
 					</li>
-					<li>
+					<li
+						class="{$page.url.pathname === '/portfolio'
+							? 'border-b border-primary text-primary transition-colors'
+							: ''} pb-2"
+					>
 						<a href="/portfolio">포트폴리오</a>
 					</li>
 				</ul>
