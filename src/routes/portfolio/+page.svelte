@@ -15,7 +15,7 @@
 <div class="mt-24">
 	<div class="max-w-7xl mx-auto px-6 pb-36">
 		<h2 class="uppercase text-4xl font-bold text-black text-center py-16">portfolio</h2>
-		<div class="spotlight-group grid grid-cols-2 gap-3">
+		<div class="spotlight-group grid sm:grid-cols-2 gap-3">
 			{#each gallery as i, index}
 				<a class="spotlight" href="/images/portfolio/{index + 1}.png" data-description={i}>
 					<img src="/images/portfolio/{index + 1}.png" />
