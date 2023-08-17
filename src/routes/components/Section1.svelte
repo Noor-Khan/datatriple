@@ -19,7 +19,7 @@
 	<SplideSlide>
 		<!-- svelte-ignore a11y-img-redundant-alt -->
 		<img src="/images/slide-1.png" alt="Image 1" />
-		<div class="grid grid-cols-1 mx-auto text-left text-white max-w-7xl w-full">
+		<div class="grid grid-cols-1 mx-auto text-left text-white max-w-7xl w-full px-6">
 			<div>
 				<h2 class="text-4xl font-bold">‘책임감’, ‘합리적 비용’</h2>
 				<h2 class="text-4xl font-bold mb-10">데이타트리플은 IT전문 개발 파트너입니다.</h2>
